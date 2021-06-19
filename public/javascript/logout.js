@@ -15,7 +15,7 @@ async function logout() {
 var tiempo;
 
 function timer() {
-    tiempo = setTimeout(function(){ logout() }, 20000)
+    tiempo = setTimeout(function(){ logout() }, 90000)
 }
 
 document.onclick = function(){ clearTimeout(tiempo)
