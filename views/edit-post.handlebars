@@ -5,8 +5,10 @@
   </h2>
   <form class="edit-post-form">
     <div>
+      <p>Title</p>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{post.description}})</span>
+      <p>Description</p>
+      <input name="post-description" type="text" value="{{post.description}}" />
     </div>
     <div>
       Created at {{format_date post.created_at}}

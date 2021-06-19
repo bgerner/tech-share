@@ -12,4 +12,16 @@ async function logout() {
     }
 }
 
+var tiempo;
+
+function timer() {
+    tiempo = setTimeout(function(){ logout() }, 20000)
+}
+
+document.onclick = function(){ clearTimeout(tiempo)
+timer()
+}
+
+timer()
+
 document.querySelector('#logout').addEventListener('click', logout);

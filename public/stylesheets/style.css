@@ -172,3 +172,13 @@ footer {
   padding: 1%;
   font-size: 110%;
 }
+
+#username {
+  color: #ff5733;
+  font-size: 14px;
+  margin: 5px 0px
+}
+
+#title {
+  margin: 0
+}
