@@ -12,6 +12,10 @@
 
   Also feel free to shoot me an email @brgerner@gmail.com
   
+  ## Screenshots
+  
+  <img width="955" alt="Screen Shot 2021-06-21 at 7 05 50 PM" src="https://user-images.githubusercontent.com/79947732/122851379-b742dc00-d2c3-11eb-8d0f-bf80d67f7c59.png">
+
   
   ## Link to deployed Heroku application
   
